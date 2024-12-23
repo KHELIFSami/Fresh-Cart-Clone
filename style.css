@@ -462,15 +462,20 @@ width: 23%;
         font-size: 2em;
     }
 
-    #logo{ width: 190px;}
-    #entete{font-size: 3em;}
+    #logo{ width: 160px;}
+    #entete{display: none;}
 
     #searchBar {
         width: 80%;
         margin: auto;
     }
 
-    
+    #searchDiv{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
     .dropdown-content {
         position: absolute;
         top: 100%;
