@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="header">
+            <img id="logo" src="images/logo.png"  alt="Logo">
+            <br> <h1 id="entete">Fresh-Cart Clone</h1> <br><br><br>
+    </div>
+
+
+    <header>
+
+        <div id="searchDiv"> 
+            <input id="searchBar" type="search" placeholder="Recherche">
+            <button id="searchBtn" type="submit" > Search </button>
+        </div>
+    
+    </header>
+
+<nav id="principalMenu">
+<ul>
+
+  <li class="dropdown" style="border: none; background-color: #0aad0a; border-radius: 8px;">
+    <a href="#home" style="color:white;" >All Departements &#9662;</a>
+      <div class="dropdown-content">
+        <a href="#"> dairy, Bread & Eggs </a>
+        <a href="#"> Snacks & Munchies </a>
+        <a href="#"> Fruits & Vegetables </a>
+        <a href="#"> Cold Drinks & juices </a>
+        <a href="#"> Breakfast & Instant Food </a>
+        <a href="#"> Bakery & Biscuits </a>
+        <a href="#"> Chicken, Meats & Fish </a>
+      </div>
+</li>
+
+<li class="dropdown">
+    <a href="#home">Home &#9662;</a>
+      <div class="dropdown-content">
+        <a href="#"> Home Default</a>
+        <a href="#"> Home Modern</a>
+        <a href="#"> Home Creative</a>
+        <a href="#"> Home Local Store</a>
+        <a href="#"> Home Minimalist</a>
+      </div>
+</li>
+
+<li class="dropdown">
+    <a href="#shop" class="dropbtn">Shop &#9662;</a>
+    <div class="dropdown-content">
+      <a href="#"> Shop Grid-Filter </a>
+      <a href="#"> Shop Grid-3 columns </a>
+      <a href="#"> Shop List-Filter </a>
+      <a href="#"> Shop Filter </a>
+      <a href="#"> Shop Wide </a>
+      <a href="#"> Shop Single </a>
+      <a href="#"> Shop Single 2 </a>
+      <a href="#"> Shop Wish List </a>
+      <a href="#"> Shop Cart </a>
+      <a href="#"> Shop Checkout </a>
+    </div>
+</li>
+
+<li class="dropdown">
+    <a href="#store" class="dropbtn">Store &#9662;</a>
+    <div class="dropdown-content">
+      <a href="#"> Store List </a>
+      <a href="#"> Store Grid </a>
+      <a href="#"> Store Single </a>
+    </div>
+</li>
+
+<li class="dropdown">
+    <a href="#megaMenu" class="dropbtn">Mega Menu &#9662;</a>
+    <div class="dropdown-content">
+      <a href="#">  1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+</li>
+
+<li class="dropdown">
+    <a href="#account" class="dropbtn">Account &#9662;</a>
+    <div class="dropdown-content">
+      <a href="#">Sign in</a>
+      <a href="#">Sign up</a>
+      <a href="#">Forgot password</a>
+      <a class="dropdown2"  href="#">My account</a>
+        <div  class="dropdown-content2">
+            <a href="#">Orders</a>
+            <a href="#">Settings</a>
+            <a href="#">Address</a>
+            <a href="#">Payement methodes</a>
+            <a href="#">Notification</a>
+        </div>
+    </div>
+</li>
+
+<li>
+    <a href="#dashboard" class="dropbtn">Dashboard</a>
+</li>
+
+<li class="dropdown">
+    <a href="#docs" class="dropbtn">Docs &#9662;</a>
+    <div class="dropdown-content">
+      <a href="#">Documentation </a>
+      <a href="#">Changelog V1.0.0</a>
+    </div>
+</li>
+
+<li class="dropdown" id="last">
+    <a href="#pages" class="dropbtn" > About Us &#9662;</a>
+    <div class="dropdown-content" >
+      <a href="#"> Blog </a>
+      <a href="#"> Blog single </a>
+      <a href="#"> Blog category</a>
+      <a href="#"> About us</a>
+      <a href="#"> 404 Error</a>
+      <a href="#"> Contact</a>
+    </div>
+</li>
+
+</ul>
+
+</nav>
+
+<hr style="color: hsl(0, 0%, 98%);">
+
+
+
+<button id="fxBtn" > Buy Now</button> <br>
+
+ <center> 
+     <img id="img1" src="images/img1.jpg" alt="">  
+ </center>
+
+ <br><br><br>
+
+
+
+<h1 class="sectionTitle"> Featured Categories</h1>
+
+<div id="bothPics">
+
+  <div id="sideLeft">
+    <h1> <span>Fruits & Vegetables </span> </h1>
+    <p> <span> Get Upto 30% Off </span> </p>
+    <button>Shop Now</button>
+  </div>
+
+  <div id="sideRight">
+      <h1> <span> Freshly Baked Buns </span> </h1>
+      <p> <span> Get Upto 25% Off  </span></p>
+      <button>Shop Now</button>
+  </div>
+
+</div>
+
+ <br><br>
+
+<main>
+
+<br><br><br>
+<h1 class="sectionTitle"> Popular Product</h1>
+<br>
+
+<div class="productContainer">
+  
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> Sale </span> 
+      <span id="top2"> 10% </span>
+    </div>
+
+    <img class="imgBox" src="images/Product1.JPG" alt="product01"> <br>
+
+    <small style="text-align: center;">Bakery & Chocolate</small><br>
+    <b>NutriChoice Digestive</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> Buy 1 Get $4.00 Off </span>
+    </div>
+
+    <img class="imgBox" src="images/Product2.JPG" alt="product02"><br>
+
+    <small style="text-align: center;">Bakery & Chocolate</small><br>
+    <b>Candbury 5 Stars Chocolate</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+  <div class="productBox"> 
+    <img class="imgBox" src="images/Product3.JPG" alt="product03"><br>
+    <small style="text-align: center;">Snack & Munchies</small><br>
+    <b>Salted instant Popcorn</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div> <br>
+
+  </div>
+  
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> -40$ </span> 
+      <span id="top2"> -40% </span>
+    </div>
+
+    <img class="imgBox" src="images/Product4.JPG" alt="product04"><br>
+    <small style="text-align: center;">Snack & Munchies</small><br>
+    <b>Haldram's sev bhujia</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div><br>
+
+  </div>
+  
+  <div class="productBox"> 
+    <img class="imgBox" src="images/Product5.JPG" alt="product05"><br>
+    <small style="text-align: center;">Dairy, Bread & Eggs</small><br>
+    <b>Blueberry Greek Yogurt</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+  <div class="productBox"> 
+    <img class="imgBox" src="images/Product6.JPG" alt="product06"><br>
+    <small style="text-align: center;">Snack & Munchies</small><br>
+    <b>Slurrp Millet Chocolate</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> New Offer -13% </span> 
+    </div>
+
+    <img class="imgBox" src="images/Product5.JPG" alt="product05"><br>
+    <small style="text-align: center;">Dairy, Bread & Eggs</small><br>
+    <b>Blueberry Greek Yogurt</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+  <div class="productBox"> 
+    <img class="imgBox" src="images/Product7.JPG" alt="product07"><br>
+    <small style="text-align: center;"> Tea, Coffee & Drinks</small><br>
+    <b>Roast Ground Coffee</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div><br>
+
+  </div>
+  
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> Sale </span> 
+      <span id="top2"> 10% </span>
+    </div>
+
+    <img class="imgBox" src="images/Product1.JPG" alt="product01"> <br>
+
+    <small style="text-align: center;">Bakery & Chocolate</small><br>
+    <b>NutriChoice Digestive</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+
+  <div class="productBox"> 
+
+    <div class="top">
+      <span id="top1"> Hot </span> 
+      <span id="top2"> 55% </span>
+    </div>
+
+    <img class="imgBox" src="images/Product8.JPG" alt="product08"><br>
+    <small style="text-align: center;"> Dairy, Bread & Eggs</small><br>
+    <b>Britannia Cheese Slices</b><br>
+
+    <div class="rating">
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9733;</span>
+      <span>&#9734;</span>
+    </div>
+
+  </div>
+  
+
+
+</div>
+
+
+<br><br><br><br>
+
+<h1 class="sectionTitle"> Our Advantages</h1>
+<div class="flexRow">
+
+  <div class="flexCol">
+    <div class="iconeContainer">
+      <i class="bi bi-alarm icone"></i>
+    </div>
+
+    <h3> 10 minute grocery now </h3>
+    <p> Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you. </p>
+  </div>
+
+  <div class="flexCol">
+    <div class="iconeContainer">
+      <i class="bi bi-cash-coin icone"></i>
+    </div>
+
+    <h3> Best Prices & Offers </h3>
+    <p> Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess & offers. </p>
+  </div>
+
+  <div class="flexCol">
+
+    <div class="iconeContainer">
+      <i class="bi bi-box2-heart icone" ></i> 
+    </div>
+    
+    <h3> Wide Assortment  </h3>
+    <p> Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg & other categories. </p>
+  </div>
+
+  <div class="flexCol">
+
+    <div class="iconeContainer">
+      <i class="bi bi-arrow-repeat icone"></i>
+    </div>
+
+    <h3> Easy Returns </h3>
+    <p> Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked policy . </p>
+  </div>
+
+</div>
+
+
+</main>
+
+   
+
+    <footer class="footer" style="overflow:hidden;">
+        
+        <div id="foot1"> <pre style="font-size: 1rem; text-align: left;">
+           <b> Categories </b>
+          Vegetables & Fruits
+          Breakfast & instant food
+          Bakery & Biscuits
+          Atta, rice & dal
+          Sauces & spreads
+          Organic & gourmet
+          Baby care
+          Cleaning essentials
+          Personal care
+        </pre> 
+      </div> <br>
+        
+        <hr>
+
+        <div id="foot2" style="text-align: left; font-size: 1.1em;"> <br>
+             <p style="font-weight: bold;">Payement Partner Logo de amazon pay et visa card...etc </p> 
+        </div>    <br>
+    
+        <hr>
+
+        <div id="foot3"> <p> ©   2022 - 2024 FreshCart eCommerce HTML Template. All rights reserved. Powered by 
+            <span style="color: #0aad0a"> Codescandy.</span> </p> </div> 
+    </footer>
+</body>
+</html>
