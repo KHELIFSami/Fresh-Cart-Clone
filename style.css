@@ -52,7 +52,7 @@ body {
 }
 
 #logo {
-    max-width: 300px;
+    width: 300px;
 }
 
  #principalMenu {
@@ -462,6 +462,9 @@ width: 23%;
         font-size: 2em;
     }
 
+    #logo{ width: 190px;}
+    #entete{font-size: 3em;}
+
     #searchBar {
         width: 80%;
         margin: auto;
@@ -503,6 +506,8 @@ width: 23%;
     .flexCol p{
         text-align: center;
         margin: auto; 
+        width: 50%;
+        margin-bottom: 20px;
     }
 
     #bothPics{
