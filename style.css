@@ -17,6 +17,8 @@ body {
 #entete {
     font-size: 6em;
     margin: 0;
+    margin-bottom: 0.5em;
+
 }
 
 #searchDiv {
